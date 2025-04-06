@@ -35,7 +35,7 @@ app.add_middleware(
 )
 
 # ✅ Load the trained model
-MODEL_PATH = r"C:\coco project\cococare_model.keras"  # Update this path
+MODEL_PATH = "cococare_model.keras"  # Update this path
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # ✅ Define class labels
